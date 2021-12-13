@@ -13,7 +13,7 @@ import com.gustavocata.course.entities.Product;
 import com.gustavocata.course.services.ProductService;
 
 @RestController
-@RequestMapping(value = "/products")
+@RequestMapping(value = "/product")
 public class ProductResource {
 	
 	@Autowired
